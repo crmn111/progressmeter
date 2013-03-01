@@ -6,6 +6,7 @@
  *
  * Dependency : jQuery + Mustache template engine (http://mustache.github.com/)
  *
+ *
  * Author: dirkjan@degroot.in
  * Location: https://github.com/dirkjan111/progressmeter
  * Version: 0.1
