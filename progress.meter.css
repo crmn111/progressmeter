@@ -1,0 +1,52 @@
+/* Progress meter with html5 support */
+
+.progress-meter {
+    position:absolute;
+    right:5em;
+    top:.9em;
+    background-color:#eee;
+    -moz-border-radius: 5px;
+    border-radius:5px;
+    z-index:999;
+    height:1.8em;
+    width:15em;
+    padding:.2em 0;
+    border:1px solid #ccc;
+}
+
+.progress-meter > div.inner {
+    margin:.25em 0;
+    background-color:#fff;
+    border-top:1px dashed #ccc;
+    border-bottom:1px dashed #ccc;
+    height:1.2em;
+    line-height:1.2em;
+    overflow:hidden;
+    color:#999;
+    position:relative;
+    text-align:center;
+}
+
+.progress-meter span {
+    display:inline-block!important;
+    position:absolute!important;
+    width:auto;
+    left:0!important;
+    /*background-color:#75C780!important;*/
+    background-color:#40CC1D!important;
+    height:1.2em!important;
+    line-height:1.2em!important;
+    vertical-align:middle!important;
+    color:#fff!important;
+}
+
+.progress-meter.stopped span, progress.stopped {
+    background-color: #DB404A;
+}
+
+progress[class] { padding-top:.3em; max-height:25px; }
+
+/* Firefox */
+progress[class] {
+    color:#fff; /* unfortunately style isn't rendered */
+}

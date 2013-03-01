@@ -1,1 +1,10 @@
-This file was created by JetBrains PhpStorm 5.0.2 for binding GitHub repository
+Progress meter - with native html5 || WAI-ARIA support - both optional
+
+Dual licensed under the MIT or GPL Version 2 licenses.
+
+Dependency : jQuery + Mustache template engine (http://mustache.github.com/)
+
+Author: dirkjan@degroot.in
+Location: https://github.com/dirkjan111/progressmeter
+Version: 0.1
+Date: 01-10-2012
