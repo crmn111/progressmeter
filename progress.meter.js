@@ -9,7 +9,7 @@
  *
  * Author: dirkjan@degroot.in
  * Location: https://github.com/dirkjan111/progressmeter
- * Version: 0.1
+ * Version:  0.1
  * Date: 01-10-2012
  */
 
